@@ -1,0 +1,3 @@
+{ezflashtagcloud( hash('parent_node_id', $node.node_id))}
+
+{ezflashtagcloud( hash('parent_node_id', $node.node_id, 'width', 500, 'height', 800))}
