@@ -1,7 +1,7 @@
 {set-block variable=$xmlTagCloud}
 <tags>
 {foreach $tag_cloud as $tag}
-	<a href={concat( '/content/keyword/', $tag['tag']|rawurlencode )|ezurl('single')} style='font-size: {$tag['font_size']}pt'>{$tag['tag']|wash()}</a> 
+	<a href={concat( '/content/keyword/', $tag['tag']|rawurlencode )|ezurl('single','full')} style='font-size: {$tag['font_size']}pt'>{$tag['tag']|wash()}</a> 
 {/foreach}
 </tags>
 {/set-block}

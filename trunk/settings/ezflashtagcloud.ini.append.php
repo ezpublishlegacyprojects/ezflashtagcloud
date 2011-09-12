@@ -8,7 +8,7 @@ BackgroundColor=ffffff
 #use transparent background
 Transparent=true
 
-#distr	String: true|false	If set to true, the tags are distributed evenly over the sphere’s surface.
+#distr	String: true|false	If set to true, the tags are distributed evenly over the spheres surface.
 Distr=true
 
 #tcolor	Hex color value for	the default tag color
@@ -20,7 +20,7 @@ Tcolor2=6e7ecc
 #hicolor	Hex color value	Tag mouseover/hover color
 Hicolor=000000
 
-#tspeed	Number: percentage	Determines the speed of the sphere’s rotation. The default is 100, higher numbers increase the speed.
+#tspeed	Number: percentage	Determines the speed of the sphereï¿½s rotation. The default is 100, higher numbers increase the speed.
 Tspeed=100
 
 */ ?>
