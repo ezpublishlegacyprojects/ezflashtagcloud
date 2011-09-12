@@ -180,16 +180,12 @@ class eZFlashTagCloud
 
                 $step = ( $maxFontSize - $minFontSize )/( $spread );
 
-                $i = 0;
                 foreach ($tags as $key => $value)
                 {
                     $size = $minFontSize + ( ( $value - $minCount ) * $step * 1.5 );
                     $tagCloud[] = array( 'font_size' => $size,
                                          'count' => $value,
                                          'tag' => $key );
-                    
-                    if( $i == 10 ) { break;}
-                    $i++;
                 }
 
                 require_once( 'kernel/common/template.php' );
